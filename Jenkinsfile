@@ -35,6 +35,6 @@ pipeline {
                 sh "docker rm sample-container || true"
                 sh "docker run -d --name sample-container -p 5000:5000 ${DOCKER_IMAGE}:latest"
             }
-        }
+        } 
     }
 }
