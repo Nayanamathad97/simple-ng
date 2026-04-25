@@ -11,7 +11,7 @@ def get_ip():
 
 @app.route("/nayana")
 def say_hello():
-    return "Hello Ankuj Sir, I have deployed from Jenkins Pipeline and pushed the image to my Docker Hub as well"
+    return "Hello, deployed from Jenkins Pipeline and pushed the image to my Docker Hub as well"
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000)
